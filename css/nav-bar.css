@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+}
+.navegation{
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+.logo{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.nav-list{
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link{
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+@media (max-width:912px) {
+    .nav-link{
+        display: none;
+    }
+    .logo{
+    position: relative;
+    padding-left: 5rem;
+    }
+    
+}
